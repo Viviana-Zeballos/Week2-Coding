@@ -1,0 +1,135 @@
+html{
+    font-family: brittany, Lora, NOTO Serif Display;
+    background-color: aliceblue;
+}
+
+body{
+    margin: 1em, 1em;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #a6ddf9;
+    text-decoration: underline;
+}
+/* Since I used h1 headings for the top headings on each page,
+I decided to have the same styling across all h1 heading. */
+
+h2 {
+    text-align: center;
+}
+
+#about-me {
+    text-align: center; 
+    margin: auto;
+    color: black;
+    background-color: #a6ddf9;
+    border-radius: 1rem;
+    padding: 10px 10px 20px 10px;
+    max-width: 1000px;
+}
+/* I used an ID selector for the about me section.
+I added a max-width here because I didn't want this section
+to stretch out all the way across the page.*/
+
+.tabs:hover {
+    color: blue;
+    text-decoration: none; 
+}
+
+.tabs {
+    text-align: center; 
+    padding: 1.3em;
+}
+/* The tabs styling is consistent on each page. */
+
+img {
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 4px #a6ddf9;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image:hover img {
+    transform: scale(1.02);
+}
+/* I styled these images to add a pop of color
+and also to help with the functionality of different screen sizes. */
+
+#footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* End of welcome page styling. */
+
+#bolivia-content {
+    text-align: center;
+}
+
+#salt-flat {
+    max-width: 400px;
+    margin: auto;
+    color: black;
+    background-color: #a6ddf9;
+    border-radius: 1rem;
+    text-align: left;
+    padding-top: 0.1em;
+    padding-left: 1em;
+}
+/* I created an ID selector here because this is a unique section of the site. */
+
+ul {
+    padding: 20px;
+    max-width: 800px;
+    text-align: left;
+}
+
+#peru-content {
+    text-align: center;
+}
+
+#colombia-content {
+    text-align: center;
+}
+/* For the 3 content ID elements, I only added text alignment for styling.
+I still went ahead and used these ID selectors for ease of styling in the future. */
+
+table, th, td, tr {
+    padding: 2px;
+    text-align: center;
+    border: 1.5px solid #000000;
+}
+
+.center-table {
+    display: flex;
+    justify-content: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #a6ddf9
+}
+
+tr:hover {
+    background-color: floralwhite;
+}
+
+/* I styled the table on this page using a class element along with table elements. */
+
+/* End of travel page styling. */
+
+.contact-page {
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    background-color: floralwhite;
+    outline: none;
+}
+
+/* I styled the contact page (lightly) to make it more user-friendly/engaging. */
